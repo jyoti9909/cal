@@ -1,0 +1,99 @@
+body {
+    background-image: url(IMAGE.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-cont {
+    background-color: blanchedalmond;
+    height: 29em;
+    /* border: 2px solid; */
+    border-radius: 2em;
+    padding: 1rem;
+}
+
+input,
+button,
+.main-cont {
+    box-shadow: inset 5px 5px 12px #5a4f4f;
+}
+
+input {
+    height: 4rem;
+    width: 18rem;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    color: rgb(70, 70, 70);
+    font-size: 32px;
+    text-align: end;
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    justify-content: center;
+}
+
+button {
+    width: 4rem;
+    font-size: 1.5rem;
+    height: 3.5rem;
+    background-color: #d2d5d8;
+    /* box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px rgb((0), 0, 0, 0.16); */
+    border: none;
+    border-radius: 40%;
+    margin: 0.4rem;
+    font-size: 16px;
+}
+
+.equal {
+    grid-column: span 2;
+    width: 8rem;
+    border-radius: 20px;
+}
+
+.equal:hover {
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    box-shadow: inherit -2px -2px 4px #f0f2f3;
+}
+
+.number:hover {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    /* box-shadow: inherit -5px -5px 4px 2px #ccc6c6; */
+    box-shadow: inherit -2px -2px 4px #fbfbfc;
+}
+
+.operator:hover {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 22px;
+    box-shadow: inherit -2px -2px 4px 2px #376b92;
+}
+
+.Clear:hover {
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.del:hover {
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: inset 5px 5px 12px #5a4f4f;
+}
